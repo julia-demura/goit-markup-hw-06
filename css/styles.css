@@ -345,8 +345,8 @@ button{
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    padding-right: 92px;
-    padding-left: 92px;
+    /* padding-right: 92px;
+    padding-left: 92px; */
     gap: 64px 24px;
   }
 }
