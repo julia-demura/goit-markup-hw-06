@@ -1004,8 +1004,5 @@ textarea::placeholder{
 .mob-soc-list{
     gap: 40px;
 }
-.mob-soc-icon{
-    width: 24px;
-    height: 24px;
-}
+
 /* #endregion */
