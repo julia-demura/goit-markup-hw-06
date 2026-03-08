@@ -24,9 +24,7 @@ button{
     cursor: pointer;
 }
 .container{
-    min-width: 320px;
-    max-width: 375px;
-    /* max-width: 320px; */
+    max-width: 320px;
     padding: 0 16px;
     margin: 0 auto;
 }
@@ -565,8 +563,10 @@ button{
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
 }
-.portfolio-item:hover, .portfolio-item:focus{
-box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+@media only screen and (min-width: 1158px) {
+  .portfolio-item:hover, .portfolio-item:focus{
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    }
 }
 .portfolio-subtitle{
 margin-bottom: 8px;
