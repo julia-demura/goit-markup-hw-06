@@ -160,7 +160,6 @@ button{
     .address-list{
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 12px;
     }
     .address-link{
@@ -333,7 +332,9 @@ button{
     width: calc((100% - 3 * 24px) / 4);
     }
  }
-
+.benefits-box-icon{
+    display: none;
+}
 @media only screen and (min-width: 1158px) {
   .benefits-box-icon{
     display: flex;
