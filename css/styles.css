@@ -24,7 +24,9 @@ button{
     cursor: pointer;
 }
 .container{
-    max-width: 320px;
+    min-width: 320px;
+    max-width: 375px;
+    /* max-width: 320px; */
     padding: 0 16px;
     margin: 0 auto;
 }
@@ -202,7 +204,9 @@ button{
     margin: 0 auto;
     padding-top: 72px;
     padding-bottom: 72px;
-    max-width: 320px;
+    /* min-width: 320px;
+    max-width: 375px; */
+    /* max-width: 320px; */
     background-image: linear-gradient(rgba(46, 47, 66, 0.7)), url(../images/hero-img-mob.jpg);
     
 }
@@ -215,7 +219,7 @@ button{
   .hero {
     padding-top: 112px;
     padding-bottom: 112px;
-    max-width: 768px;
+    /* max-width: 768px; */
     background-image: linear-gradient(rgba(46, 47, 66, 0.7)), url(../images/hero-img-tab.jpg);
   }
   @media (min-resolution: 192dpi){
